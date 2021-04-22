@@ -164,7 +164,17 @@ namespace PR2_Alumnos
 
             carrera.mostrarCarrera();
 
+            Dictionary<string, string> semestresMultimedia = new Dictionary<string, string>();
+
+            semestresMultimedia.Add("2","2ndo Semestre");
+            semestresMultimedia.Add("4","4to Semestre");
+            semestresMultimedia.Add("6","6to Semestre");
+            semestresMultimedia.Add("8","8vo Semestre");
+
             
+
+
+
 
 
 
