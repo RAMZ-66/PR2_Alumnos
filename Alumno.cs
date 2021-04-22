@@ -2,13 +2,13 @@ using System;
 
 namespace PR2_Alumnos
 {
-    class Alumno
+    public class Alumno
     {
        
-        string nombre;
-        string apellido;
-        int edad;
-        int matricula;
+        public string nombre;
+        public string apellido;
+        public int edad;
+        public int matricula;
 
         public Alumno(string nombre, string apellido, int edad, int matricula)
         {
@@ -22,18 +22,20 @@ namespace PR2_Alumnos
             this.matricula = matricula;
 
         }
+        
+        public string NombreCompleto
+        {
+            get => this.nombre + " " + this.apellido;
+        }
 
+            // if ( matricula == null)
+            // {
 
+            // Console.WriteLine(InformacionPersonal); 
+            // return null;
 
-
-
-
-
-
-
-
-
-
+            // }                    
+            
 
     }
 }
