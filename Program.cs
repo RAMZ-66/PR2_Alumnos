@@ -158,7 +158,14 @@ namespace PR2_Alumnos
 
             artes.BuscarPorMatricula(7128);
 
+            // Mostrar carreras
+
             Carrera carrera = new Carrera (OpcionesCarrera.MULTIMEDIA);
+
+            carrera.mostrarCarrera();
+
+            
+
 
 
         }
